@@ -14,6 +14,9 @@ class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.purple,
+      ),
       body: SingleChildScrollView(
         child: Container(
           margin: EdgeInsets.only(top:40.0,left: 20.0,right: 20.0),
